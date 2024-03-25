@@ -1,9 +1,8 @@
+#multiplication table
+num_multiplier = int(input("Enter number: "))
 
-number = int(input("Enter the number for which you want the multiplication table: "))
-limit = int(input("Enter the limit up to which you want the table generated: "))
+multiplier = int(input("Enter the number of times you want to multiply your number:"))
 
-# Generate the multiplication table
-print(f"Multiplication table for {number} up to {limit}:")
-for i in range(1, limit+1):
-    result = number * i
-    print(f"{number} x {i} = {result}")
+for i in range(1,multiplier + 1):
+    result + num_multiplier * 1
+    print (f"{num_multiplier} x {i} =  {result}")
